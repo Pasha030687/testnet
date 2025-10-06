@@ -5,6 +5,7 @@ services:
   node:
     image: schnetzlerjoe/defund-node:v0.0.4
     env:
+      - Pasha030687
       - MONIKER=defund-akash-node
       - CHAIN_ID=defund-private-1
       - PRUNING=custom
